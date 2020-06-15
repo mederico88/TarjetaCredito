@@ -49,7 +49,7 @@ body{
 /* TARJETA DELANTERA */
 .tarjeta .delantera{
     width: 100%;
-    background-image: url(/img/bg-tarjeta/bg-tarjeta-02.jpg);
+    background-image: url(img/bg-tarjeta/bg-tarjeta-02.jpg);
     background-size: cover;
 }
 
