@@ -48,8 +48,8 @@ body{
 
 /* TARJETA DELANTERA */
 .tarjeta .delantera{
-    width: 100%;
     background-image: url(img/bg-tarjeta/bg-tarjeta-02.jpg);
+    width: 100%;
     background-size: cover;
 }
 
