@@ -318,3 +318,122 @@ body{
     color: white;
     text-shadow: 5px 5px 15px black;
 }
+
+@media screen and (max-width: 490px){
+
+    .tarjeta > div{
+        padding: 15px;
+        min-height: 215px;
+    }
+        
+    .delantera .logoMarca{
+        text-align: right;
+        min-height: 50px;
+    }
+    .delantera .logoMarca img {
+        max-width: 50px;
+    }
+    .delantera .chip{
+        width: 100%;
+        max-width: 35px;
+        margin-bottom: 5px;
+    }
+    .delantera .label {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .delantera .grupo .numero,
+    .delantera .grupo .nombre,
+    .delantera .grupo .expiracion{
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    .delantera .flexbox{
+        margin-top: 5px;
+    }
+    
+    .trasera .barra-magnetica{
+        height: 25px;
+        top: 20px;
+        left: 0;
+    }
+    
+    .trasera .datos{
+        margin-top: 40px;
+    }
+    
+    .trasera .datos #firma .firma{
+        height: 30px;
+        background: repeating-linear-gradient(skyblue 0, skyblue 5px, orange 5px, orange 10px);
+    }
+    
+    .trasera .datos #firma .firma p{
+        line-height: 30px;
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .trasera .datos #ccv .ccv{
+        height: 30px;
+        color: black;
+    }
+    
+    .trasera .leyenda{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .trasera .link-banco{
+        font-size: 8px;
+        color: white;
+    }
+    /* formulario */
+
+    
+    .formulario-tarjeta label{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    
+    .formulario-tarjeta input,
+    .formulario-tarjeta select,
+    .btn-enviar{
+        font-size: 13px;
+        height: 30px;
+        padding: 5px 12px;
+    }
+    
+
+    .formulario-tarjeta input{
+        margin-bottom: 10px;
+    }
+
+    .formulario-tarjeta .cvv{
+        min-width: 50px;
+    }
+
+    .formulario-tarjeta .grupo-select i{
+        position: absolute;
+        top: 18px;
+        right: 15px;
+    }
+    
+    .formulario-tarjeta .btn-enviar{
+        padding: 5px;
+        font-size: 15px;
+    }  
+    .grupo.ccv{
+        width: 70px;
+    }
+    /* mensaje */
+    .mensaje{
+        border-radius: 10px;
+        padding: 15px;
+        margin: 15px;
+    }  
+    .mensaje p{
+        font-size: 18px;
+        font-weight: bolder;
+        text-align: center;
+    }
+}
